@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mlb_little_leuge_28913.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mlb_little_leuge_28913.settings")
 
 application = get_wsgi_application()
