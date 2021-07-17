@@ -4,11 +4,14 @@ from django.db import models
 
 class HomePage(models.Model):
     "Generated Model"
-    body = models.TextField()
+    texas = models.TextField(
+        blank=True,
+    )
 
 
 class CustomText(models.Model):
     "Generated Model"
-    title = models.CharField(
+    albama = models.CharField(
         max_length=150,
+        blank=True,
     )
